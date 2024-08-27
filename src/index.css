@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg-light: #ffffff;
+  --color-bg-dark: #1a202c;
+  --color-text-light: #1a202c;
+  --color-text-dark: #cbd5e0;
+}
+
+html.light {
+  --color-bg: var(--color-bg-light);
+  --color-text: var(--color-text-light);
+}
+
+html.dark {
+  --color-bg: var(--color-bg-dark);
+  --color-text: var(--color-text-dark);
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s, color 0.3s;
+}
+.widget-kominfo-container {
+  height: 540px;
+  overflow-y: auto;
+}

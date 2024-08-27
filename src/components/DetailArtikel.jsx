@@ -137,7 +137,7 @@ export default function DetailArtikel() {
         {/* Lihat Artikel Lainnya di Kolom Samping */}
         <div>
           <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-6">
-            Lihat Artikel Lainnya
+            Artikel Lainnya
           </h2>
           <div className="grid grid-cols-1 gap-6">
             {artikelLainnya.map((artikel) => (

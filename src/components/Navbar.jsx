@@ -159,7 +159,7 @@ export default function Navbar() {
                   {item.submenu && item.submenu.length > 0 && (
                     <PopoverPanel
                       transition
-                      className="absolute left-0 top-full z-10 mt-3 max-w-xs overflow-hidden rounded-lg bg-[var(--color-bg)] shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+                      className="absolute left-0 top-full z-10 mt-3 max-w-xs w-56 overflow-hidden rounded-lg bg-[var(--color-bg)] shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
                     >
                       <div className="p-4">
                         {item.submenu.map((subItem) => (
@@ -217,7 +217,7 @@ export default function Navbar() {
               </PopoverButton>
               <PopoverPanel
                 transition
-                className="absolute  left-0  top-full z-10 mt-3 max-w-xs overflow-hidden rounded-lg bg-[var(--color-bg)] shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+                className="absolute  left-0  top-full z-10 mt-3 max-w-xs w-56 overflow-hidden rounded-lg bg-[var(--color-bg)] shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
               >
                 <div className="p-4">
                   {navbar.slice(6).map((item) => (

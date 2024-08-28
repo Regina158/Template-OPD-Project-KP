@@ -168,7 +168,7 @@ export default function DownloadArea() {
                             to={`${
                               import.meta.env.VITE_APP_LINK_API
                             }/api/getDownloadArea/${
-                              import.meta.env.VITE_APP_API_URL_APP_OPD_ID
+                              import.meta.env.VITE_APP_OPD_ID
                             }/${item.guid}`}
                             className="text-blue-500 underline"
                           >

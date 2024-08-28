@@ -14,16 +14,21 @@
     "@heroicons/react": "^2.1.5",
     "aos": "^2.3.4",
     "axios": "^1.7.2",
+    "chart.js": "^4.4.4",
+    "lightbox.js": "^1.0.2",
+    "lightbox.js-react": "^1.0.9",
     "react": "^18.3.1",
     "react-calendar": "^5.0.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
+    "react-image-lightbox": "^5.1.4",
     "react-leaflet": "^4.2.1",
     "react-modal": "^3.16.1",
     "react-multi-carousel": "^2.8.5",
     "react-router-dom": "^6.25.1",
-    "recharts": "^2.12.7"
+    "recharts": "^2.12.7",
+    "yet-another-react-lightbox": "^3.21.4"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
